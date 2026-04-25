@@ -14,7 +14,9 @@ public class StatusController {
     @GetMapping(path = "/status")
     public Map<String,Object> getStatus(){
         Map<String,Object> response = new HashMap<>();
-        response.put("name","service1");
+        response.put("name","shantanu");
+        response.put("girlfriend","anjali");
+        response.put("message","shantanu loves anjali");
         response.put("status",true);
         return response;
     }
