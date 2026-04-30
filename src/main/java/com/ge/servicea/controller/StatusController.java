@@ -16,7 +16,7 @@ public class StatusController {
         Map<String,Object> response = new HashMap<>();
         response.put("name","shantanu");
         response.put("girlfriend","anjali");
-        response.put("message","shantanu loves anjali");
+        response.put("message","blue-green deployment");
         response.put("status",true);
         return response;
     }
